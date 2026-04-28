@@ -12,6 +12,14 @@
     "agentos": "./dist/cli.js"
   },
   "main": "./dist/cli.js",
+  "files": [
+    "dist",
+    "skills",
+    "plugin",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
