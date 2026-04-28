@@ -1,0 +1,24 @@
+{
+  "name": "agentos",
+  "version": "0.1.0",
+  "description": "Generate AI-ready project brains and setup workflows for coding agents.",
+  "author": {
+    "name": "AgentOS contributors"
+  },
+  "license": "MIT",
+  "keywords": ["project-setup", "agents", "prd", "codex", "cursor"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "AgentOS",
+    "shortDescription": "Prepare projects for AI coding agents",
+    "longDescription": "AgentOS turns rough project ideas into project briefs, PRDs, architecture docs, agent rules, implementation plans, and project-specific skills.",
+    "developerName": "AgentOS contributors",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "brandColor": "#2563EB",
+    "defaultPrompt": [
+      "Use AgentOS to initialize this project before writing code.",
+      "Use AgentOS to turn this idea into an AI-ready PRD and project brain."
+    ]
+  }
+}

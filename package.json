@@ -1,0 +1,57 @@
+{
+  "name": "agentos",
+  "version": "0.1.0",
+  "description": "AI-powered project setup for coding agents. Turns rough ideas into AI-ready project brains, PRDs, architecture docs, and agent skills.",
+  "license": "MIT",
+  "author": "AgentOS contributors",
+  "type": "module",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "bin": {
+    "agentos": "./dist/cli.js"
+  },
+  "main": "./dist/cli.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "openai": "^4.95.0",
+    "commander": "^13.1.0",
+    "chalk": "^5.4.1",
+    "ora": "^8.2.0",
+    "inquirer": "^12.5.0",
+    "js-yaml": "^4.1.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^22.14.0",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.1"
+  },
+  "keywords": [
+    "agent",
+    "codex",
+    "cursor",
+    "project-setup",
+    "prd",
+    "ai",
+    "cli",
+    "skill",
+    "mcp"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/QuantumCoderSys/AgentOS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/QuantumCoderSys/AgentOS/issues"
+  },
+  "homepage": "https://github.com/QuantumCoderSys/AgentOS#readme"
+}
